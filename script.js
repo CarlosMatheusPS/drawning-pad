@@ -33,6 +33,7 @@ canvas.addEventListener('mousemove', (e) => {
 canvas.addEventListener('mouseover', e => {
     isPressed = false
 })
+
 function drawCircle(x, y) {
     ctx.beginPath();
     ctx.arc(x, y, size, 0, Math.PI * 2)
